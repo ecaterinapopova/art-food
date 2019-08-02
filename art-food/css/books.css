@@ -1,0 +1,87 @@
+.book-first {
+	margin-top: 150px;
+}
+.book-second, .book-third {
+	margin-top: 20px;
+}
+
+.breakfast,
+.holiday,
+.sugar_spice {
+	padding: 130px;
+}
+
+@media (max-width: 800px) {
+	.breakfast,
+	.holiday,
+	.sugar_spice {
+		padding: 30px;
+	}
+}
+
+
+h1 {
+	font-family: "Times New Roman", serif;
+	letter-spacing: 9px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+@media (max-width: 800px) {
+ h1 {
+		font-size: 22px;
+	}
+}
+
+
+.price {
+	font-size: 40px;
+	display: block;
+}
+
+@media (max-width: 800px) {
+ .price {
+		font-size: 30px;
+		display: block;
+
+	}
+}
+
+.btn {
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 0;
+	color: #000;
+	font-size: 15px;
+	margin: 0;
+	line-height: 60px;
+	padding: 0 30px;
+	height: 60px;
+	transition: all 1s ease;
+
+}
+
+@media (max-width: 800px) {
+ .btn {
+		font-size: 13px;
+		margin: 0;
+		line-height: 40px;
+		padding: 0 30px;
+		height: 40px;
+	}
+}
+
+
+.btn:hover {
+	background-color: #273a4e;
+	color: #fff;
+}
+
+.buy {
+	display: flex;
+	justify-content: space-between;
+}
+
+.book {
+	align-self: center;
+}

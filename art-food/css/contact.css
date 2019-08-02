@@ -1,0 +1,85 @@
+.contact ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+@media (max-width: 800px) {
+	.contact ul {
+		display: block;
+	}
+}
+
+.contact ul li:last-child {
+	border-left: 1px solid black;
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+@media (max-width: 800px) {
+	.contact ul li:last-child {
+		border-left: 0;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+.contact {
+	margin-top: 100px;
+}
+
+.contact .img {
+	min-height: 100%;
+}
+
+.get-in-touch {
+	padding: 45px;
+	background-color: #f0f3f6;
+
+}
+
+@media (max-width: 800px) {
+	.get-in-touch {
+		padding: 15px;
+	}
+}
+
+.contact .form-control {
+	border-radius: 0;
+	border: 1px solid #273a4e !important;
+	background-color: #f0f3f6;
+
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0;
+}
+
+.up-to-date {
+	padding-top: 30px;
+
+}
+
+.up-to-date .form-group {
+	display: flex;
+}
+
+.up-to-date .form-group .btn {
+	margin: 0;
+	padding: 7px 40px;
+	margin-left: 10px;
+}
+
+.contact .btn {
+	margin-top: 20px;
+	background-color: #273a4e;
+	border-radius: 0;
+	font-size: 15px;
+	padding: 10px 40px;
+	color: #fff;
+
+}
+
+.contact .btn:hover {
+	background-color: #5c6d80;
+}

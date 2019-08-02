@@ -1,0 +1,120 @@
+.portfolio {
+	justify-content: center;
+	color: #fff;
+	font-family: "Times New Roman", serif;
+}
+
+.portfolio .btn {
+	margin-top: 20px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 40px;
+}
+
+@media (max-width: 800px) {
+	.portfolio .btn {
+		margin-top: 2px;
+		background-color: transparent;
+		border: 1px solid #fff;
+		border-radius: 0;
+		color: #fff;
+		font-size: 15px;
+		padding: 5px 20px;
+	}
+}
+
+.portfolio .btn:hover {
+	background-color: #273a4e;
+	border: 1px solid #273a4e;
+}
+
+
+.food_serve {
+	text-align: center;
+	background-image: url(../image/9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	transition: all 1s ease;
+	margin: 10px;
+}
+
+.baked_goods {
+	text-align: center;
+	background-image: url(../image/7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	transition: all 1s ease;
+	margin: 10px;
+
+}
+
+.editorial {
+	text-align: center;
+	background-image: url(../image/6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	transition: all 1s ease;
+	margin: 10px;
+
+}
+
+.editorial:hover,
+.food_serve:hover,
+.baked_goods:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.editorial:before,
+.food_serve:before,
+.baked_goods:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: inherit;
+	content: '';
+}
+
+.editorial .info,
+.food_serve .info,
+.baked_goods .info {
+	color: #fff;
+	width: 100%;
+	height: 50%;
+	margin: auto;
+	position: absolute;
+	top: 10%;
+	right: 0;
+	display: none;
+}
+
+.editorial:hover .info,
+.food_serve:hover .info,
+.baked_goods:hover .info {
+	display: block;
+	z-index: 1000;
+}
+
+h1 {
+	font-family: "Times New Roman", serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 34px;
+	font-size: 40px;
+}
+
+@media (max-width: 800px) {
+	h1 {
+		font-size: 20px !important;
+	}
+}

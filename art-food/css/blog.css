@@ -1,0 +1,101 @@
+.first {
+	margin-top: 100px !important;
+}
+
+.article {
+	margin-top: 20px;
+	position: relative;
+}
+
+hr {
+	margin-top: 2rem;
+}
+
+p {
+	margin: 0;
+	color: grey;
+	font-size: 12px;
+}
+
+h2 {
+	font-family: "Times New Roman", serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 34px;
+	font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+	h2 {
+		font-size: 21px !important;
+	}
+}
+
+@media (max-width: 800px) {
+	h2 {
+		font-size: 19px !important;
+	}
+}
+
+pre {
+	font-size: 12px;
+}
+
+.description {
+	color: #000;
+	font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+	.description {
+		font-size: 14px;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+.img-fluid {
+	height: 100%;
+	width: 100%;
+}
+
+.desc {
+	background-color: #e8ebee;
+}
+
+.image {
+	overflow: hidden;
+}
+
+.img {
+	height: 100%;
+	width: 100%;
+	transition: transform 1s;
+}
+
+.img:hover {
+	transform: scale(1.1);
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.first ul li,
+.article ul li {
+	padding-right: 15px;
+}
+
+ul li .fa-heart {
+	color: red;
+}
